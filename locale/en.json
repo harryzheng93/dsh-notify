@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Desktop notifications",
+    "description": "Shows a Windows notification when a tool needs your approval or a turn finishes, and returns to the app when you click it.",
+    "detail": "docs/DETAIL.md"
+  }
+}

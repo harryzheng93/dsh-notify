@@ -1,0 +1,5 @@
+node_modules/
+*.tgz
+*.log
+# Leftover from the first (renderer-based) version; the bundle no longer loads it.
+client.js

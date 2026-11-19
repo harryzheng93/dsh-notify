@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Community plugins",
+    "zh": "社区插件"
+  },
+  "description": {
+    "en": "One community plugin index. Replace the placeholders and host this file anywhere reachable over HTTPS.",
+    "zh": "一份社区插件索引。把占位符换成真实地址后，把这个文件放到任意能通过 HTTPS 访问的地方。"
+  },
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@harryzheng93/dsh-notify",
+      "title": {
+        "en": "Desktop notifications",
+        "zh": "系统通知提醒"
+      },
+      "description": {
+        "en": "Shows a Windows notification when a tool needs your approval or a turn finishes, and brings the app forward when you click it.",
+        "zh": "需要授权、或者一轮对话跑完时弹出 Windows 通知，点通知回到应用。"
+      },
+      "author": "YOUR NAME",
+      "homepage": "https://github.com/YOU/dsh-notify",
+      "repository": {
+        "url": "https://github.com/YOU/dsh-notify"
+      },
+      "metadata": {
+        "keywords": [
+          "notification",
+          "toast",
+          "windows",
+          "approval"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1763590000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/YOU/dsh-notify",
+            "commit": "REPLACE_WITH_40_HEX_COMMIT_SHA"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}

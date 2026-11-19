@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "title": {
+    "en": "harryzheng93 DSH plugins",
+    "zh": "harryzheng93 的 DSH 插件"
+  },
+  "description": {
+    "en": "Plugins for DeepSeek Harness published from this account.",
+    "zh": "这个账号发布的 DeepSeek Harness 插件。"
+  },
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@harryzheng93/dsh-notify",
+      "title": {
+        "en": "Desktop notifications",
+        "zh": "系统通知提醒"
+      },
+      "description": {
+        "en": "Shows a Windows notification when a tool needs your approval or a turn finishes, and brings the app forward when you click it.",
+        "zh": "需要授权、或者一轮对话跑完时弹出 Windows 通知，点通知回到应用。"
+      },
+      "author": "harryzheng93",
+      "homepage": "https://github.com/harryzheng93/dsh-notify",
+      "repository": {
+        "url": "https://github.com/harryzheng93/dsh-notify"
+      },
+      "metadata": {
+        "keywords": [
+          "notification",
+          "toast",
+          "windows",
+          "approval"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795051653,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/harryzheng93/dsh-notify",
+            "commit": "__COMMIT__"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}

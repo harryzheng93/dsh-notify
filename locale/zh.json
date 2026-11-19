@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "系统通知提醒",
+    "description": "需要授权、或者一轮对话跑完时弹出 Windows 通知，点通知回到应用。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

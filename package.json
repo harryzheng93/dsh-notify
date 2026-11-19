@@ -1,0 +1,38 @@
+{
+  "name": "@harryzheng93/dsh-notify",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Windows toast notifications when an agent needs approval or a turn finishes",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "notification",
+    "toast",
+    "windows",
+    "approval"
+  ],
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.5"
+  }
+}

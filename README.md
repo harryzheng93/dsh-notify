@@ -34,7 +34,15 @@ the decision stays yours.
 
 ## Install
 
-Install the bundle from the Plugins page, or through the plugin manager:
+Add this index URL under **Plugins → Custom plugin indexes → Discover → Add index
+source**, then install from the card:
+
+```
+https://raw.githubusercontent.com/harryzheng93/dsh-notify/main/market/index.json
+```
+
+Or install the bundle directly from the Plugins page, or through the plugin
+manager:
 
 ```
 plugin_manager install_bundle {"target": "dsh-notify"}   # npm

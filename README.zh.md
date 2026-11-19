@@ -28,7 +28,13 @@ DeepSeek Harness 是未打包的 Electron 应用，主进程没有设置应用�
 
 ## 安装
 
-在「设置 → 插件」里安装，或者用插件管理器：
+在「插件 → 自定义插件市场（实验性）→ 发现 → 添加索引源」里填这个地址，然后从卡片安装：
+
+```
+https://raw.githubusercontent.com/harryzheng93/dsh-notify/main/market/index.json
+```
+
+也可以在「设置 → 插件」里直接安装，或者用插件管理器：
 
 ```
 plugin_manager install_bundle {"target": "dsh-notify"}   # npm

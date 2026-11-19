@@ -46,7 +46,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/harryzheng93/dsh-notify",
-            "commit": "__COMMIT__"
+            "commit": "5ce9420bf5badefc3f20e0670c83f00f4d86d666"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.5"
